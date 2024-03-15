@@ -7,7 +7,7 @@ class ClientManager : public QObject
 {
     Q_OBJECT
 public:
-    explicit ClientManager(QString ip = "192.168.1.11", ushort port = 4500, QObject *parent = nullptr);
+    explicit ClientManager(QString ip = "Server IP here", ushort port = 4500, QObject *parent = nullptr);
     void connectToServer();
     void sendMessage(QString message);
     void disconnectFromServer();
