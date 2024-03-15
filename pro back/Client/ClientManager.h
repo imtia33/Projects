@@ -20,7 +20,7 @@ private slots:
 
 private:
     QTcpSocket *_socket;
-    QHostAddress _ip;
+    QString _ip;
     ushort _port;
 };
 
