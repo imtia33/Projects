@@ -1,0 +1,1 @@
+Here the phonebook is a project with C and the Pro back is a separate project uusing QT and C++ for a chat application , the client is the clicnt application and the server is the main server application
